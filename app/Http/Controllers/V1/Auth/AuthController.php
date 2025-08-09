@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\V1;
+namespace App\Http\Controllers\V1\Auth;
 
 use App\Enum\User\UserAdmin;
 use App\Enum\User\UserStatus;

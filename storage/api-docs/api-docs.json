@@ -15,7 +15,7 @@
                     "Auth"
                 ],
                 "summary": "ثبت نام یا ورود",
-                "operationId": "89b4fa1e115670ac57505943ec5a5ef9",
+                "operationId": "e4543d4386547ef4f8bf2588a9fc32ce",
                 "requestBody": {
                     "required": true,
                     "content": {
@@ -99,7 +99,7 @@
                     "Auth"
                 ],
                 "summary": "تایید کد تاییده",
-                "operationId": "a44d18767d8bccfc85e286f619fc2fdc",
+                "operationId": "abf26645335cbe523cab024241f5e614",
                 "requestBody": {
                     "required": true,
                     "content": {
