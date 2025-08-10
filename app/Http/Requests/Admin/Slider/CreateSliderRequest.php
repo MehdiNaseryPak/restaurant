@@ -22,8 +22,9 @@ class CreateSliderRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'image' => 'required',
-            'link' => 'required'
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'link' => 'required',
+            'status' => 'required|in:0,1',
         ];
     }
 }

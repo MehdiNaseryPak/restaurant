@@ -1,9 +1,9 @@
 <div class="navigation">
     <div class="navigation-icon-menu">
         <ul>
-            <li data-toggle="tooltip" title="کاربران">
-                <a href="#users" title=" کاربران">
-                    <i class="icon ti-user"></i>
+            <li data-toggle="tooltip" title="اسلایدر">
+                <a href="#sliders" title="اسلایدر">
+                    <i class="icon ti-image"></i>
                 </a>
             </li>
         </ul>
@@ -21,12 +21,12 @@
         </ul>
     </div>
     <div class="navigation-menu-body">
-        <ul id="users">
+        <ul id="sliders">
             <li>
-                <a href="#">کاربران</a>
+                <a href="javascript:void(0)">اسلایدر</a>
                 <ul>
-                    <li><a href="#">ایجاد کاربر</a></li>
-                    <li><a href="#">لیست کاربران</a></li>
+                    <li><a href="{{ route('admin.sliders.create') }}">ایجاد اسلایدر</a></li>
+                    <li><a href="{{ route('admin.sliders.index') }}">لیست اسلایدر ها</a></li>
                 </ul>
             </li>
         </ul>
